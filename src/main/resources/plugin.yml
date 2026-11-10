@@ -1,0 +1,17 @@
+name: CanardDeathLog
+version: 1.0.0
+main: fr.canarddev.deathlog.CanardDeathLog
+api-version: '1.21'
+author: CanardDev
+description: History of every player's deaths (cause, killer, place, date).
+commands:
+  deaths:
+    description: Show a player's deaths
+    aliases: [deathlog, morts]
+permissions:
+  deathlog.view:
+    description: Use /deaths <player>
+    default: op
+  deathlog.clear:
+    description: Use /deaths clear <player> and /deaths reload
+    default: op

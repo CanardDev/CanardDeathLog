@@ -1,0 +1,20 @@
+# ============================================================
+#  CanardDeathLog - by CanardDev
+#  Keeps the history of every player's deaths.
+# ============================================================
+
+# Messages language: en or fr (files messages_en.yml / messages_fr.yml)
+language: en
+
+# Deaths kept per player (the oldest ones are deleted, the total keeps counting)
+max-deaths-per-player: 100
+
+# Deaths per page in /deaths
+per-page: 10
+
+# Also write every death in plugins/CanardDeathLog/deaths.log (kept forever)
+log-file: true
+
+# Time zone of the dates. Examples: Europe/Paris, Europe/London, America/New_York, UTC
+timezone: "Europe/Paris"
+date-format: "dd/MM/yyyy HH:mm:ss"
